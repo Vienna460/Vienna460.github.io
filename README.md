@@ -39,8 +39,7 @@ The website includes:
 ├── assets/
 │   ├── css/
 │   ├── js/
-│   ├── images/
-│   └── icons/
+│   └── images/
 ├── index.html
 └── README.md
 ```
