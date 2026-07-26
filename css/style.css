@@ -1,0 +1,37 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.fade-section {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.fade-section.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.navbar.scrolled {
+    backdrop-filter: blur(10px);
+    background: rgba(20,20,20,.8);
+    transition: .3s;
+}
+
+.project-card {
+    transition: all .3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 30px rgba(0,0,0,.2);
+}
+
+.btn {
+    transition: .3s;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+}
